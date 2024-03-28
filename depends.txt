@@ -1,0 +1,13 @@
+apt packages:
+    lua5.3
+    liblua5.3-dev
+    luarocks
+    libyaml-dev
+
+luarocks:
+    penlight
+    luasocket
+    lyaml (--server=http://rocks.moonscript.org)
+
+manually installed to /usr/local/share/lua/5.3:
+    json.lua (https://github.com/rxi/json.lua)
